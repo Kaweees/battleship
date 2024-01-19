@@ -1,0 +1,19 @@
+{
+  "python.analysis.typeCheckingMode": "basic", 
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+      "--line-length=120"
+  ],
+  "python.linting.enabled": true,
+  "isort.args": [
+    "--profile", "black"
+  ],
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}
